@@ -1,0 +1,21 @@
+{
+  "name": "step01_helloworld_gcloud_manual",
+  "version": "1.0.0",
+  "description": "We are going to build a Hello World server with Express using TypeScript:",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Zia Khan",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "tslint": "^6.1.2",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
