@@ -18,11 +18,11 @@ Steps to be followed :
    - Storage Object Admin (Tutorial does not mention this)
    - Viewer
 8. Add Secrets in Github, 3 secrets needs to be added
-   - RUN_PROJECT
+   - PROJECT_ID
      - This is project id which you created on google cloud
    - SA_EMAIL
      - This is email id of service account
-   - RUN_SA_KEY
+   - GOOGLE_APPLICATION_CREDENTIALS
      - This is google service account credentials in base64 format which we created in step 5
 9. Commit code and each time code will be deployed directly
 
