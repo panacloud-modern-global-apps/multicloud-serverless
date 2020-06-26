@@ -7,7 +7,7 @@ We will follow this tutorial to setup
 Steps to be followed (All below steps provided in above link):
 1. Go to [Google Cloud Console](https://console.cloud.google.com)
 2. Create new project or Select existing project from Google Cloud Console
-3. [Enabled Billing](https://cloud.google.com/billing/docs/how-to/modify-project) in Project created in step 2, Google cloud project required to enable billing. Google provide $300 credit for free trail for 12 months
+3. [Enabled Billing](https://cloud.google.com/billing/docs/how-to/modify-project) in Project (created in step 2), Google cloud project requires to enable billing. Google provide $300 credit for free trail for 12 months
 4. Install [Google Cloud SDK](https://cloud.google.com/sdk/docs)
 5. After installation run 'Google Cloud SDK Shell', it will ask for login and then it will ask for project id on which you want to work on. This project was created in step 2
 6. Create basic Node.js server application
