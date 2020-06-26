@@ -23,7 +23,7 @@ on:
 
 # Environment variables available to all jobs and steps in this workflow
 env:
-    PROJECT_ID: ${{ secrets.STEP02_PROJECT_ID }}
+    PROJECT_ID: ${{ secrets.STEP02_RUN_PROJECT }}
     RUN_REGION: us-central1
     SERVICE_NAME: helloworld-cloud
 
@@ -45,7 +45,7 @@ jobs:
               with:
                   version: '275.0.0'
                   service_account_email: ${{ secrets.STEP02_SA_EMAIL }}
-                  service_account_key: ${{ secrets.STEP02_GOOGLE_APPLICATION_CREDENTIALS}}
+                  service_account_key: ${{ secrets.STEP02_RUN_SA_KEY}}
 
             # Configure gcloud CLI
             - name: gcloud Set up
@@ -58,7 +58,8 @@ jobs:
             # Deploy image to Cloud Run
             - name: Deploy
               run: |
-                  gcloud run deploy $SERVICE_NAME \
+                  gcloud run deploy $SERVICE_NAME 
                     --region $RUN_REGION \
                     --image gcr.io/$PROJECT_ID/$SERVICE_NAME:$GITHUB_SHA \
                     --platform managed
+                    --allow-unauthenticated

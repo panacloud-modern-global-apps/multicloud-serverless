@@ -7,7 +7,7 @@ We will follow this tutorial to setup
 Steps to be followed :
 1. Review code and files from step 'step01_helloworld_gcloud_manual'. Code and files will be same
 2. Step 1 to Step 8 of 'step01_helloworld_gcloud_manual' will be same
-3. Use this [YAML file](https://github.com/efiShtain/github-action-cloud-run/blob/master/.github/workflows/cloud-run.yml) for Github Action
+3. Use this [YAML file](https://github.com/GoogleCloudPlatform/github-actions/blob/master/example-workflows/cloud-run/.github/workflows/cloud-run.yml) for Github Action
 4. Change value of SERVICE_NAME variable in YAML file to any name you want for your app, like 'helloworldapp'
 5. [Create a service account](https://console.cloud.google.com/iam-admin/serviceaccounts) follow the steps in tutorial above
 6. [Convert JSON object of service account credential into base64](https://codebeautify.org/json-to-base64-converter), this base64 will be added in github secrets
@@ -18,11 +18,11 @@ Steps to be followed :
    - Storage Object Admin (Tutorial does not mention this)
    - Viewer
 8. Add Secrets in Github, 3 secrets needs to be added
-   - PROJECT_ID
+   - RUN_PROJECT
      - This is project id which you created on google cloud
    - SA_EMAIL
      - This is email id of service account
-   - GOOGLE_APPLICATION_CREDENTIALS
+   - RUN_SA_KEY
      - This is google service account credentials in base64 format which we created in step 5
 9. Commit code and each time code will be deployed directly
 
