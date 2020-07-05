@@ -3,7 +3,11 @@ Learn Multicloud Serverless Application Development using AWS, Google Cloud, Azu
 
 [Multicloud: Everything you need to know about the biggest trend in cloud computing](https://www.zdnet.com/article/multicloud-everything-you-need-to-know-about-the-biggest-trend-in-cloud-computing/).
 
-To get started with serverless first find out [what is serverless by watching this video](https://www.youtube.com/watch?v=MkD53Uuz4Rk). Then read this [Wikipedia entry](https://en.wikipedia.org/wiki/Serverless_computing). We will focus more on [bringing together and learning two great technologies: serverless and containers](https://techcrunch.com/2019/05/23/serverless-and-containers-two-great-technologies-that-work-great-together/).
+To get started with serverless first find out [what is serverless by watching this video](https://www.youtube.com/watch?v=MkD53Uuz4Rk). Then read this [Wikipedia entry](https://en.wikipedia.org/wiki/Serverless_computing). 
+
+[Watch this docker tutorial](https://www.youtube.com/watch?v=fqMOX6JJhGo)
+
+We will focus more on [bringing together and learning two great technologies: serverless and containers](https://techcrunch.com/2019/05/23/serverless-and-containers-two-great-technologies-that-work-great-together/).
 
 We will learn how to integrate different serverless cloud services, SaaS, and legacy applications using [Amazon EventBridge](https://aws.amazon.com/eventbridge/), [Google Cloud Pub/Sub](https://cloud.google.com/pubsub), [Azure Event Grid](https://azure.microsoft.com/en-us/services/event-grid/), and [Cloud Events](https://cloudevents.io/). We will be do [multicloud messaging with the help of serverless functions](https://www.youtube.com/watch?v=GY0cHfDhpF4)
 
