@@ -5,7 +5,11 @@ Learn Multicloud Serverless Application Development using AWS, Google Cloud, Azu
 
 To get started with serverless first find out [what is serverless by watching this video](https://www.youtube.com/watch?v=MkD53Uuz4Rk). Then read this [Wikipedia entry](https://en.wikipedia.org/wiki/Serverless_computing). 
 
+[Using Serverless Backends to Iterate Quickly on Web Apps](https://aws.amazon.com/blogs/compute/using-serverless-backends-to-iterate-quickly-on-web-apps-part-1/)
+
+
 [Watch this docker tutorial](https://www.youtube.com/watch?v=fqMOX6JJhGo)
+
 
 We will focus more on [bringing together and learning two great technologies: serverless and containers](https://techcrunch.com/2019/05/23/serverless-and-containers-two-great-technologies-that-work-great-together/).
 
