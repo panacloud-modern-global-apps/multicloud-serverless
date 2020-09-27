@@ -1,5 +1,5 @@
-# Learn Multicloud Serverless Application Development in Baby Steps
-Learn Multicloud Serverless Application Development using AWS, Google Cloud, Azure, and other best of the breed serverless technologies in baby steps. 
+# Learn Multicloud Serverless API Development in Baby Steps
+Learn Multicloud Serverless API Development using AWS, Google Cloud, Azure, and other best of the breed serverless technologies in baby steps. 
 
 [Multicloud: Everything you need to know about the biggest trend in cloud computing](https://www.zdnet.com/article/multicloud-everything-you-need-to-know-about-the-biggest-trend-in-cloud-computing/).
 
