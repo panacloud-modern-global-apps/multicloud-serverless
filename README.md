@@ -5,6 +5,8 @@ Learn Multicloud Serverless API Development using AWS, Google Cloud, Azure, and 
 
 To get started with serverless first find out [what is serverless by watching this video](https://www.youtube.com/watch?v=MkD53Uuz4Rk). Then read this [Wikipedia entry](https://en.wikipedia.org/wiki/Serverless_computing). 
 
+[Thinking Asynchronously by Eric Johnson](https://www.youtube.com/watch?v=eyjxZK-YHIk)
+
 [Using Serverless Backends to Iterate Quickly on Web Apps](https://aws.amazon.com/blogs/compute/using-serverless-backends-to-iterate-quickly-on-web-apps-part-1/)
 
 
